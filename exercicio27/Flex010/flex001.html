@@ -15,17 +15,32 @@
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
+            flex-basis: 200px;
             flex-shrink: 1;
             flex-grow: 1;
+        }
+
+        div#cxA {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB {
+            flex-shrink: 1;
+            flex-grow: 2;
+        }
+
+        div#cxC {
+            flex-shrink: 1;
+            flex-grow: 4;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit nulla laudantium fugiat eveniet, eaque, similique numquam repellendus qui dolore, nisi totam. Vitae officia dolorem, ea molestias aliquam mollitia cupiditate totam.</div>
-        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat consequatur quasi voluptates autem, numquam at iusto libero ad incidunt. Error non eum sapiente tenetur quos sit id voluptatum minima cupiditate?</div>
-        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores accusantium nostrum asperiores velit veniam aliquid obcaecati quaerat magni dicta! Delectus adipisci nobis modi commodi sed ab ut voluptatum autem.</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
     </div>
 </body>
 </html>
